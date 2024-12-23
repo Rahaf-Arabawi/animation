@@ -125,7 +125,7 @@
         transform: rotateZ(15deg);
         position: absolute;
         width: 350px;
-       transform-origin: bottom right;
+       transform-origin: bottom right; 
     }
     /* tasks7 */
     .scalre{
@@ -200,10 +200,10 @@
         width: 340px;
         height: 550px;
         box-shadow: 5px 5px 29px gray;
-        transform: scale();
+        transition: 2s;
     }
-    .me .card:hover{
-        transform: scale(1.25);
+ .card:hover{
+        transform: scale(1.3);
     }
     .header{
         display: grid;
